@@ -1,0 +1,223 @@
+/* main text color #757575  */
+/* secondary text color #212121 */
+/* main white color #FFFFFF */
+/* secondary white color: rgba(255, 255, 255, 0.6) */
+/* accent color #2196F3 */
+/* logo color #000000 */
+/* background color #2F303A */
+/* bottom background color #F5F4FA */
+
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --main-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --logo-color: #000000;
+  --accent-color: #2196f3;
+  --secondary-background-color: #2f303a;
+  --bottom-background-color: #f5f4fa;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  color: var(--main-text-color);
+}
+
+.page {
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*---------------------Header section--------------------- */
+.header-logo {
+  color: var(--logo-color);
+}
+.header-logo-span-web {
+  color: var(--accent-color);
+}
+.nav-list-item {
+  color: var(--secondary-text-color);
+}
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: var(--accent-color);
+}
+.header-contacts-item {
+  color: var(--main-text-color);
+}
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+  color: var(--accent-color);
+}
+/*---------------------Hero section--------------------- */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/*---------------------Advantages section--------------------- */
+.adv-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.adv-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/*---------------------Our products section-------------- ------- */
+.products-title {
+  color: var(--secondary-text-color);
+}
+
+/*---------------------Our team section--------------------- */
+.team-section-title {
+  color: var(--secondary-text-color);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/*---------------------Footer section--------------------- */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer-logo {
+  color: var(--main-white-color);
+}
+
+.footer-logo-span-web {
+  color: var(--accent-color);
+}
+
+address {
+  font-style: normal;
+}
+.footer-contacts-item {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-white-color);
+}
+.footer-contacts .street {
+  color: var(--main-white-color);
+}
+
+.footer-contacts-item:hover,
+.footer-contacts-item:focus {
+  color: var(--accent-color);
+}
+/*---------------------Portfolio section--------------------- */
+.portfolio-filter {
+}
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--bottom-background-color);
+  color: var(--secondary-text-color);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+}
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-item-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
