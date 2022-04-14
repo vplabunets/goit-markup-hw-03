@@ -103,7 +103,9 @@ ul {
 /*---------------------Header section--------------------- */
 .page-header {
   border-bottom: 1px solid #ececec;
-  width: 1600px;
+  /* width: 1600px;
+  margin-left: auto;
+  margin-right: auto; */
 }
 
 .nav-header {
